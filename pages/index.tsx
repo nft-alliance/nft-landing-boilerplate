@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <LayoutFullWidth>
       <div className="teaser">
-        <h2>Footy NFT</h2>
+        <h2>My NFT</h2>
         <p>
           Yeah
         </p>
-        <Link href="/something"><a style={{ textDecoration: 'none', color: 'white'}}><Button tertiary >Play now</Button></a></Link>
+        <MintBox />
       </div>
 
      
 
       <div className="centered">
-        <h2>About Footy NFT</h2>
+        <h2>About My NFT</h2>
         <p>
           Get one now
 
@@ -31,7 +31,7 @@ export default function Home() {
 
       <style jsx>{`
         .teaser {
-          background: linear-gradient(180deg, #FF7A0E, transparent);
+          background: black;
           background-size: 100% 100%;
          
           padding: 100px;

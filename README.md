@@ -1,6 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Landing Boilerplate
+
+## Configuration
+
+- Create a `.env` file with the values from the `.env.sample` configuration
+
+- Introduce your contract abi inside the file `modules/nft/contract/abi.json` 
+
+## Features:
+
+- Login / Connect wallet
+- API endpoints to fetch NFT data `/api/token/TOKEN_ID`
+- Mint form
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 

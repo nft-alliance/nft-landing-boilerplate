@@ -16,14 +16,14 @@ export function Header() {
           <div className="right">
             <div className="links">
               <div className="link">
-                <Link href="/mint">
+                <Link href="/">
                   <a>Mint</a>
                 </Link>
               </div>
 
               <div className="link">
-                <Link href="/other">
-                  <a>Other</a>
+                <Link href="/faq">
+                  <a>FAQs</a>
                 </Link>
               </div>
             </div>
@@ -47,7 +47,7 @@ export function Header() {
             </div>
 
             <div className="link">
-              <Link href="/mint">
+              <Link href="/">
                 <a>Mint</a>
               </Link>
             </div>

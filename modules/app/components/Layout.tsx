@@ -8,7 +8,6 @@ export function Layout({
   children,
   rightColumn = (
     <React.Fragment>
-     
       <Login />
     </React.Fragment>
   ),
@@ -18,24 +17,24 @@ export function Layout({
 }): React.ReactElement {
   return (
     <React.Fragment>
-      
-        <Header />
-        <Head>
-          <title>Website title</title>
-          <meta
-            name="description"
-            content="Website description."
-          />
-          <link rel="icon" href="/favicon.png" />
-        </Head>
 
-        <div className="body">
-          <div className="main">{children}</div>
+      <Header />
+      <Head>
+        <title>Website title</title>
+        <meta
+          name="description"
+          content="Website description."
+        />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
 
-          <div className="right">{rightColumn}</div>
-        </div>
-        <Footer />
-        <style jsx>{`
+      <div className="body">
+        <div className="main">{children}</div>
+
+        <div className="right">{rightColumn}</div>
+      </div>
+      <Footer />
+      <style jsx>{`
           .body {
             min-height: 100vh;
             padding: 0 0.5rem;
@@ -52,8 +51,7 @@ export function Layout({
           }
 
           .right {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding: 30px;
             width: 450px;
           }
         `}</style>

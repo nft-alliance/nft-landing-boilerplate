@@ -8,20 +8,19 @@ export default function GalleryPage() {
       <h3>How can I mint?</h3>
       <p>
         You can get a random mint from our{" "}
-        <Link href="/mint">
+        <Link href="/">
           <a>Mint page</a>
         </Link>
       </p>
       <Divider />
-      <h3>Are there rewards for winning?</h3>
+      <h3>Are there rewards for minting?</h3>
       <p>
-        At the beginning the game will use an off-chain points system. The team
-        will work in the future on an onchain tokenized reward system.
+        Yes, you get an NFT
       </p>
       <Divider />
-      <h3>Will the game have great graphics?</h3>
+      <h3>Will I have fun?</h3>
       <p>
-        No, the game will have simple graphics to display the combat results.{" "}
+        Yes.{" "}
       </p>
       <Divider />
       <p>
